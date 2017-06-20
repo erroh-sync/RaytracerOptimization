@@ -499,7 +499,7 @@ int main(int argc, char **argv)
 	t6.join();
 	t7.join();
 	t8.join();
-
+	
 	// Interpolate Remaining Pixels (X)
 	for (int y = 0; y < windowHeight - 1; y++)
 	{
@@ -565,7 +565,7 @@ int main(int argc, char **argv)
 			}
 		}
 	}
-
+	
 	// Record ending time.
 	long endTime = timer.getTicks() * 2;
 
